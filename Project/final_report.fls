@@ -270,6 +270,10 @@ INPUT ./images/cebra_x_r2_393_200_epochs_3_layer.png
 INPUT ./images/cebra_x_r2_393_200_epochs_3_layer.png
 INPUT ./images/cebra_x_r2_393_200_epochs_3_layer.png
 INPUT ./images/cebra_x_r2_393_200_epochs_3_layer.png
+INPUT ./images/cebra_test_r2_scores.png
+INPUT ./images/cebra_test_r2_scores.png
+INPUT ./images/cebra_test_r2_scores.png
+INPUT ./images/cebra_test_r2_scores.png
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 INPUT final_report.aux

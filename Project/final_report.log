@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.12)  12 NOV 2024 23:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.12)  15 NOV 2024 01:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -459,46 +459,46 @@ Package pdftex.def Info: images/.9_pca_DINO_embed_r2_128dim_503_top_var_200_epoc
 <images/x_r2_128dim_503_top_var_200_epochs_0.008_beta_2_layer_.9_pca_DINO_embed.png, id=215, 1011.78pt x 433.62pt>
 File: images/x_r2_128dim_503_top_var_200_epochs_0.008_beta_2_layer_.9_pca_DINO_embed.png Graphic file (type png)
 <use images/x_r2_128dim_503_top_var_200_epochs_0.008_beta_2_layer_.9_pca_DINO_embed.png>
-Package pdftex.def Info: images/x_r2_128dim_503_top_var_200_epochs_0.008_beta_2_layer_.9_pca_DINO_embed.png  used on input line 210.
+Package pdftex.def Info: images/x_r2_128dim_503_top_var_200_epochs_0.008_beta_2_layer_.9_pca_DINO_embed.png  used on input line 209.
 (pdftex.def)             Requested size: 452.9679pt x 194.1281pt.
 
 
 [12 <./images/.9_pca_DINO_embed_r2_128dim_503_top_var_200_epochs_0.05_beta_2_layer.png> <./images/x_r2_128dim_503_top_var_200_epochs_0.008_beta_2_layer_.9_pca_DINO_embed.png>]
-<images/.9_pca_DINO_embed_r2_128dim_503_top_var_200_epochs_0.008_beta_2_layer.png, id=228, 1011.78pt x 433.62pt>
+<images/.9_pca_DINO_embed_r2_128dim_503_top_var_200_epochs_0.008_beta_2_layer.png, id=227, 1011.78pt x 433.62pt>
 File: images/.9_pca_DINO_embed_r2_128dim_503_top_var_200_epochs_0.008_beta_2_layer.png Graphic file (type png)
 <use images/.9_pca_DINO_embed_r2_128dim_503_top_var_200_epochs_0.008_beta_2_layer.png>
-Package pdftex.def Info: images/.9_pca_DINO_embed_r2_128dim_503_top_var_200_epochs_0.008_beta_2_layer.png  used on input line 220.
+Package pdftex.def Info: images/.9_pca_DINO_embed_r2_128dim_503_top_var_200_epochs_0.008_beta_2_layer.png  used on input line 219.
 (pdftex.def)             Requested size: 407.66833pt x 174.71529pt.
-<images/x_r2_128dim_772_top_var_200_epochs_0.008_beta_2_layer_.9_pca_DINO_embed.png, id=233, 1011.78pt x 433.62pt>
+<images/x_r2_128dim_772_top_var_200_epochs_0.008_beta_2_layer_.9_pca_DINO_embed.png, id=232, 1011.78pt x 433.62pt>
 File: images/x_r2_128dim_772_top_var_200_epochs_0.008_beta_2_layer_.9_pca_DINO_embed.png Graphic file (type png)
 <use images/x_r2_128dim_772_top_var_200_epochs_0.008_beta_2_layer_.9_pca_DINO_embed.png>
-Package pdftex.def Info: images/x_r2_128dim_772_top_var_200_epochs_0.008_beta_2_layer_.9_pca_DINO_embed.png  used on input line 232.
+Package pdftex.def Info: images/x_r2_128dim_772_top_var_200_epochs_0.008_beta_2_layer_.9_pca_DINO_embed.png  used on input line 230.
 (pdftex.def)             Requested size: 452.9679pt x 194.1281pt.
 
 
 [13 <./images/.9_pca_DINO_embed_r2_128dim_503_top_var_200_epochs_0.008_beta_2_layer.png> <./images/x_r2_128dim_772_top_var_200_epochs_0.008_beta_2_layer_.9_pca_DINO_embed.png>]
-<images/.9_pca_DINO_embed_r2_128dim_772_top_var_200_epochs_0.008_beta_2_layer.png, id=248, 1011.78pt x 433.62pt>
+<images/.9_pca_DINO_embed_r2_128dim_772_top_var_200_epochs_0.008_beta_2_layer.png, id=246, 1011.78pt x 433.62pt>
 File: images/.9_pca_DINO_embed_r2_128dim_772_top_var_200_epochs_0.008_beta_2_layer.png Graphic file (type png)
 <use images/.9_pca_DINO_embed_r2_128dim_772_top_var_200_epochs_0.008_beta_2_layer.png>
-Package pdftex.def Info: images/.9_pca_DINO_embed_r2_128dim_772_top_var_200_epochs_0.008_beta_2_layer.png  used on input line 242.
+Package pdftex.def Info: images/.9_pca_DINO_embed_r2_128dim_772_top_var_200_epochs_0.008_beta_2_layer.png  used on input line 239.
 (pdftex.def)             Requested size: 407.66833pt x 174.71529pt.
-<images/x_r2_128dim_503_top_var_200_epochs_0.05_beta_2_layer_frame_id_guidance.png, id=250, 1011.78pt x 433.62pt>
+<images/x_r2_128dim_503_top_var_200_epochs_0.05_beta_2_layer_frame_id_guidance.png, id=248, 1011.78pt x 433.62pt>
 File: images/x_r2_128dim_503_top_var_200_epochs_0.05_beta_2_layer_frame_id_guidance.png Graphic file (type png)
 <use images/x_r2_128dim_503_top_var_200_epochs_0.05_beta_2_layer_frame_id_guidance.png>
-Package pdftex.def Info: images/x_r2_128dim_503_top_var_200_epochs_0.05_beta_2_layer_frame_id_guidance.png  used on input line 256.
+Package pdftex.def Info: images/x_r2_128dim_503_top_var_200_epochs_0.05_beta_2_layer_frame_id_guidance.png  used on input line 254.
 (pdftex.def)             Requested size: 452.9679pt x 194.1281pt.
 
 
 [14 <./images/.9_pca_DINO_embed_r2_128dim_772_top_var_200_epochs_0.008_beta_2_layer.png>]
-<images/frame_id_accuracy_128dim_503_top_var_200_epochs_0.05_beta_2_layer.png, id=259, 1011.78pt x 433.62pt>
+<images/frame_id_accuracy_128dim_503_top_var_200_epochs_0.05_beta_2_layer.png, id=260, 1011.78pt x 433.62pt>
 File: images/frame_id_accuracy_128dim_503_top_var_200_epochs_0.05_beta_2_layer.png Graphic file (type png)
 <use images/frame_id_accuracy_128dim_503_top_var_200_epochs_0.05_beta_2_layer.png>
-Package pdftex.def Info: images/frame_id_accuracy_128dim_503_top_var_200_epochs_0.05_beta_2_layer.png  used on input line 265.
+Package pdftex.def Info: images/frame_id_accuracy_128dim_503_top_var_200_epochs_0.05_beta_2_layer.png  used on input line 263.
 (pdftex.def)             Requested size: 452.9679pt x 194.1281pt.
-<images/frame_id_accuracy_128dim_503_top_var_200_epochs_0.05_beta_2_layer_.2_dropout.png, id=260, 1011.78pt x 433.62pt>
+<images/frame_id_accuracy_128dim_503_top_var_200_epochs_0.05_beta_2_layer_.2_dropout.png, id=261, 1011.78pt x 433.62pt>
 File: images/frame_id_accuracy_128dim_503_top_var_200_epochs_0.05_beta_2_layer_.2_dropout.png Graphic file (type png)
 <use images/frame_id_accuracy_128dim_503_top_var_200_epochs_0.05_beta_2_layer_.2_dropout.png>
-Package pdftex.def Info: images/frame_id_accuracy_128dim_503_top_var_200_epochs_0.05_beta_2_layer_.2_dropout.png  used on input line 275.
+Package pdftex.def Info: images/frame_id_accuracy_128dim_503_top_var_200_epochs_0.05_beta_2_layer_.2_dropout.png  used on input line 272.
 (pdftex.def)             Requested size: 452.9679pt x 194.1281pt.
 
 
@@ -506,65 +506,72 @@ Package pdftex.def Info: images/frame_id_accuracy_128dim_503_top_var_200_epochs_
 <images/vae_models_logistic_knn_comparison.png, id=270, 867.24pt x 578.16pt>
 File: images/vae_models_logistic_knn_comparison.png Graphic file (type png)
 <use images/vae_models_logistic_knn_comparison.png>
-Package pdftex.def Info: images/vae_models_logistic_knn_comparison.png  used on input line 296.
+Package pdftex.def Info: images/vae_models_logistic_knn_comparison.png  used on input line 295.
 (pdftex.def)             Requested size: 452.9679pt x 301.97705pt.
 
 
 [16 <./images/frame_id_accuracy_128dim_503_top_var_200_epochs_0.05_beta_2_layer_.2_dropout.png>]
-<images/772_vae_hidden_.9_pca_DINO_knn_video.png, id=285, 1003.8303pt x 261.6174pt>
+<images/772_vae_hidden_.9_pca_DINO_knn_video.png, id=284, 1003.8303pt x 261.6174pt>
 File: images/772_vae_hidden_.9_pca_DINO_knn_video.png Graphic file (type png)
 <use images/772_vae_hidden_.9_pca_DINO_knn_video.png>
-Package pdftex.def Info: images/772_vae_hidden_.9_pca_DINO_knn_video.png  used on input line 305.
+Package pdftex.def Info: images/772_vae_hidden_.9_pca_DINO_knn_video.png  used on input line 304.
 (pdftex.def)             Requested size: 452.9679pt x 118.05008pt.
 
 
 [17 <./images/vae_models_logistic_knn_comparison.png>]
-<images/cebra_latents_knn_decoder_grid_search.png, id=296, 867.24pt x 361.35pt>
+<images/cebra_latents_knn_decoder_grid_search.png, id=295, 867.24pt x 361.35pt>
 File: images/cebra_latents_knn_decoder_grid_search.png Graphic file (type png)
 <use images/cebra_latents_knn_decoder_grid_search.png>
-Package pdftex.def Info: images/cebra_latents_knn_decoder_grid_search.png  used on input line 320.
+Package pdftex.def Info: images/cebra_latents_knn_decoder_grid_search.png  used on input line 319.
 (pdftex.def)             Requested size: 452.9679pt x 188.73566pt.
 
 
 [18 <./images/772_vae_hidden_.9_pca_DINO_knn_video.png> <./images/cebra_latents_knn_decoder_grid_search.png>]
-<images/cebra_knn_video.png, id=310, 1003.8303pt x 261.6174pt>
+<images/cebra_knn_video.png, id=309, 1003.8303pt x 261.6174pt>
 File: images/cebra_knn_video.png Graphic file (type png)
 <use images/cebra_knn_video.png>
-Package pdftex.def Info: images/cebra_knn_video.png  used on input line 329.
+Package pdftex.def Info: images/cebra_knn_video.png  used on input line 328.
 (pdftex.def)             Requested size: 452.9679pt x 118.05008pt.
-<images/cebra_latents_lr_decoder.png, id=315, 867.24pt x 361.35pt>
+<images/cebra_latents_lr_decoder.png, id=314, 867.24pt x 361.35pt>
 File: images/cebra_latents_lr_decoder.png Graphic file (type png)
 <use images/cebra_latents_lr_decoder.png>
-Package pdftex.def Info: images/cebra_latents_lr_decoder.png  used on input line 342.
+Package pdftex.def Info: images/cebra_latents_lr_decoder.png  used on input line 341.
 (pdftex.def)             Requested size: 362.37569pt x 150.98853pt.
 
 
 [19 <./images/cebra_knn_video.png> <./images/cebra_latents_lr_decoder.png>]
-<images/cebra_x_r2_772_200_epochs_3_layer.png, id=333, 1156.32pt x 433.62pt>
+<images/cebra_x_r2_772_200_epochs_3_layer.png, id=332, 1156.32pt x 433.62pt>
 File: images/cebra_x_r2_772_200_epochs_3_layer.png Graphic file (type png)
 <use images/cebra_x_r2_772_200_epochs_3_layer.png>
-Package pdftex.def Info: images/cebra_x_r2_772_200_epochs_3_layer.png  used on input line 355.
+Package pdftex.def Info: images/cebra_x_r2_772_200_epochs_3_layer.png  used on input line 354.
 (pdftex.def)             Requested size: 452.9679pt x 169.85878pt.
-<images/cebra_x_r2_503_200_epochs_3_layer.png, id=341, 1156.32pt x 433.62pt>
+<images/cebra_x_r2_503_200_epochs_3_layer.png, id=340, 1156.32pt x 433.62pt>
 File: images/cebra_x_r2_503_200_epochs_3_layer.png Graphic file (type png)
 <use images/cebra_x_r2_503_200_epochs_3_layer.png>
-Package pdftex.def Info: images/cebra_x_r2_503_200_epochs_3_layer.png  used on input line 364.
+Package pdftex.def Info: images/cebra_x_r2_503_200_epochs_3_layer.png  used on input line 363.
 (pdftex.def)             Requested size: 452.9679pt x 169.85878pt.
 
 
 [20 <./images/cebra_x_r2_772_200_epochs_3_layer.png>]
-<images/cebra_x_r2_393_200_epochs_3_layer.png, id=351, 1156.32pt x 433.62pt>
+<images/cebra_x_r2_393_200_epochs_3_layer.png, id=350, 1156.32pt x 433.62pt>
 File: images/cebra_x_r2_393_200_epochs_3_layer.png Graphic file (type png)
 <use images/cebra_x_r2_393_200_epochs_3_layer.png>
-Package pdftex.def Info: images/cebra_x_r2_393_200_epochs_3_layer.png  used on input line 373.
+Package pdftex.def Info: images/cebra_x_r2_393_200_epochs_3_layer.png  used on input line 372.
 (pdftex.def)             Requested size: 452.9679pt x 169.85878pt.
+<images/cebra_test_r2_scores.png, id=353, 433.62pt x 361.35pt>
+File: images/cebra_test_r2_scores.png Graphic file (type png)
+<use images/cebra_test_r2_scores.png>
+Package pdftex.def Info: images/cebra_test_r2_scores.png  used on input line 383.
+(pdftex.def)             Requested size: 271.7835pt x 226.49933pt.
 
 
 [21 <./images/cebra_x_r2_503_200_epochs_3_layer.png> <./images/cebra_x_r2_393_200_epochs_3_layer.png>]
 
-[22]
+[22 <./images/cebra_test_r2_scores.png>]
 
-[23] (./final_report.aux)
+[23]
+
+[24] (./final_report.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -573,18 +580,18 @@ Package rerunfilecheck Info: File `final_report.out' has not changed.
 (rerunfilecheck)             Checksum: 44540628FC6AB9F7209C3DE1DA6331D7;3020.
  ) 
 Here is how much of TeX's memory you used:
- 11435 strings out of 475030
- 194442 string characters out of 5762435
- 583397 words of memory out of 5000000
- 33934 multiletter control sequences out of 15000+600000
+ 11442 strings out of 475030
+ 194794 string characters out of 5762435
+ 583534 words of memory out of 5000000
+ 33944 multiletter control sequences out of 15000+600000
  565215 words of font info for 61 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,7n,79p,3662b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,3874b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/JosephYu/Library/texlive/2024basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on final_report.pdf (23 pages, 2804104 bytes).
+Output written on final_report.pdf (24 pages, 2820885 bytes).
 PDF statistics:
- 464 PDF objects out of 1000 (max. 8388607)
- 356 compressed objects within 4 object streams
- 84 named destinations out of 1000 (max. 500000)
- 300 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 471 PDF objects out of 1000 (max. 8388607)
+ 360 compressed objects within 4 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 305 words of extra memory for PDF output out of 10000 (max. 10000000)
 
