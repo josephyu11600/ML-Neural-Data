@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1731650445.34933 "/Users/JosephYu/Desktop/GT/ML-Neural-Data/Project/final_report.tex" "final_report.pdf" "final_report" 1731650448.23025 0
-  "/Users/JosephYu/Desktop/GT/ML-Neural-Data/Project/final_report.tex" 1731650444.37154 49837 1335743d19be4f0742723fa6be7ac90f ""
+["pdflatex"] 1731897672.23113 "/Users/JosephYu/Desktop/GT/ML-Neural-Data/Project/final_report.tex" "final_report.pdf" "final_report" 1731897675.50164 0
+  "/Users/JosephYu/Desktop/GT/ML-Neural-Data/Project/final_report.tex" 1731897672.12818 50336 edca9f540edd2f39b782c7cd2fe67a1e ""
   "/Users/JosephYu/Library/texlive/2024basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk" 1730762204.09411 14040 cabf46e649eae1db53b2ed9f970d2fe5 ""
   "/usr/local/texlive/2024basic/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -81,9 +81,9 @@
   "/usr/local/texlive/2024basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1726198551 79187 3707ba1a1c2304ab6bb6cb291e5e6f79 ""
   "/usr/local/texlive/2024basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1726198588 2629192 d2d179e7496d5c255380da0e98930c4b ""
   "/usr/local/texlive/2024basic/texmf.cnf" 1710011638 628 8b896f7d9d41b43f4346b9091e52171f ""
-  "final_report.aux" 1731650448.17968 15837 175652067ebf4a473917ad29580ae30b "pdflatex"
-  "final_report.out" 1731650448.1808 3020 44540628fc6ab9f7209c3de1da6331d7 "pdflatex"
-  "final_report.tex" 1731650444.37154 49837 1335743d19be4f0742723fa6be7ac90f ""
+  "final_report.aux" 1731897675.44532 15837 175652067ebf4a473917ad29580ae30b "pdflatex"
+  "final_report.out" 1731897675.44643 3020 44540628fc6ab9f7209c3de1da6331d7 "pdflatex"
+  "final_report.tex" 1731897672.12818 50336 edca9f540edd2f39b782c7cd2fe67a1e ""
   "images/.9_pca_DINO_embed_r2_128dim_503_top_var_200_epochs_0.008_beta_2_layer.png" 1731050376.09977 76102 921a7293546e96814cb5fd0f51c9dd4e ""
   "images/.9_pca_DINO_embed_r2_128dim_503_top_var_200_epochs_0.05_beta_2_layer.png" 1730571381.08736 92522 7bacc2b4a9b73517e2f03ba124089327 ""
   "images/.9_pca_DINO_embed_r2_128dim_772_top_var_200_epochs_0.008_beta_2_layer.png" 1731049699.02977 71389 e2efcd05ba2bac16c5a716b47d4eb4a4 ""

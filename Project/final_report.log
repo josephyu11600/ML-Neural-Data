@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.12)  15 NOV 2024 01:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.12)  17 NOV 2024 21:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -514,54 +514,54 @@ Package pdftex.def Info: images/vae_models_logistic_knn_comparison.png  used on 
 <images/772_vae_hidden_.9_pca_DINO_knn_video.png, id=284, 1003.8303pt x 261.6174pt>
 File: images/772_vae_hidden_.9_pca_DINO_knn_video.png Graphic file (type png)
 <use images/772_vae_hidden_.9_pca_DINO_knn_video.png>
-Package pdftex.def Info: images/772_vae_hidden_.9_pca_DINO_knn_video.png  used on input line 304.
+Package pdftex.def Info: images/772_vae_hidden_.9_pca_DINO_knn_video.png  used on input line 306.
 (pdftex.def)             Requested size: 452.9679pt x 118.05008pt.
 
 
 [17 <./images/vae_models_logistic_knn_comparison.png>]
-<images/cebra_latents_knn_decoder_grid_search.png, id=295, 867.24pt x 361.35pt>
+<images/cebra_latents_knn_decoder_grid_search.png, id=296, 867.24pt x 361.35pt>
 File: images/cebra_latents_knn_decoder_grid_search.png Graphic file (type png)
 <use images/cebra_latents_knn_decoder_grid_search.png>
-Package pdftex.def Info: images/cebra_latents_knn_decoder_grid_search.png  used on input line 319.
+Package pdftex.def Info: images/cebra_latents_knn_decoder_grid_search.png  used on input line 321.
 (pdftex.def)             Requested size: 452.9679pt x 188.73566pt.
 
 
 [18 <./images/772_vae_hidden_.9_pca_DINO_knn_video.png> <./images/cebra_latents_knn_decoder_grid_search.png>]
-<images/cebra_knn_video.png, id=309, 1003.8303pt x 261.6174pt>
+<images/cebra_knn_video.png, id=310, 1003.8303pt x 261.6174pt>
 File: images/cebra_knn_video.png Graphic file (type png)
 <use images/cebra_knn_video.png>
-Package pdftex.def Info: images/cebra_knn_video.png  used on input line 328.
+Package pdftex.def Info: images/cebra_knn_video.png  used on input line 330.
 (pdftex.def)             Requested size: 452.9679pt x 118.05008pt.
-<images/cebra_latents_lr_decoder.png, id=314, 867.24pt x 361.35pt>
+<images/cebra_latents_lr_decoder.png, id=315, 867.24pt x 361.35pt>
 File: images/cebra_latents_lr_decoder.png Graphic file (type png)
 <use images/cebra_latents_lr_decoder.png>
-Package pdftex.def Info: images/cebra_latents_lr_decoder.png  used on input line 341.
+Package pdftex.def Info: images/cebra_latents_lr_decoder.png  used on input line 343.
 (pdftex.def)             Requested size: 362.37569pt x 150.98853pt.
 
 
 [19 <./images/cebra_knn_video.png> <./images/cebra_latents_lr_decoder.png>]
-<images/cebra_x_r2_772_200_epochs_3_layer.png, id=332, 1156.32pt x 433.62pt>
+<images/cebra_x_r2_772_200_epochs_3_layer.png, id=333, 1156.32pt x 433.62pt>
 File: images/cebra_x_r2_772_200_epochs_3_layer.png Graphic file (type png)
 <use images/cebra_x_r2_772_200_epochs_3_layer.png>
-Package pdftex.def Info: images/cebra_x_r2_772_200_epochs_3_layer.png  used on input line 354.
+Package pdftex.def Info: images/cebra_x_r2_772_200_epochs_3_layer.png  used on input line 356.
 (pdftex.def)             Requested size: 452.9679pt x 169.85878pt.
-<images/cebra_x_r2_503_200_epochs_3_layer.png, id=340, 1156.32pt x 433.62pt>
+<images/cebra_x_r2_503_200_epochs_3_layer.png, id=341, 1156.32pt x 433.62pt>
 File: images/cebra_x_r2_503_200_epochs_3_layer.png Graphic file (type png)
 <use images/cebra_x_r2_503_200_epochs_3_layer.png>
-Package pdftex.def Info: images/cebra_x_r2_503_200_epochs_3_layer.png  used on input line 363.
+Package pdftex.def Info: images/cebra_x_r2_503_200_epochs_3_layer.png  used on input line 365.
 (pdftex.def)             Requested size: 452.9679pt x 169.85878pt.
 
 
 [20 <./images/cebra_x_r2_772_200_epochs_3_layer.png>]
-<images/cebra_x_r2_393_200_epochs_3_layer.png, id=350, 1156.32pt x 433.62pt>
+<images/cebra_x_r2_393_200_epochs_3_layer.png, id=351, 1156.32pt x 433.62pt>
 File: images/cebra_x_r2_393_200_epochs_3_layer.png Graphic file (type png)
 <use images/cebra_x_r2_393_200_epochs_3_layer.png>
-Package pdftex.def Info: images/cebra_x_r2_393_200_epochs_3_layer.png  used on input line 372.
+Package pdftex.def Info: images/cebra_x_r2_393_200_epochs_3_layer.png  used on input line 374.
 (pdftex.def)             Requested size: 452.9679pt x 169.85878pt.
-<images/cebra_test_r2_scores.png, id=353, 433.62pt x 361.35pt>
+<images/cebra_test_r2_scores.png, id=354, 433.62pt x 361.35pt>
 File: images/cebra_test_r2_scores.png Graphic file (type png)
 <use images/cebra_test_r2_scores.png>
-Package pdftex.def Info: images/cebra_test_r2_scores.png  used on input line 383.
+Package pdftex.def Info: images/cebra_test_r2_scores.png  used on input line 385.
 (pdftex.def)             Requested size: 271.7835pt x 226.49933pt.
 
 
@@ -586,9 +586,9 @@ Here is how much of TeX's memory you used:
  33944 multiletter control sequences out of 15000+600000
  565215 words of font info for 61 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,7n,79p,3874b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,3874b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/JosephYu/Library/texlive/2024basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2024basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on final_report.pdf (24 pages, 2820885 bytes).
+Output written on final_report.pdf (24 pages, 2822575 bytes).
 PDF statistics:
  471 PDF objects out of 1000 (max. 8388607)
  360 compressed objects within 4 object streams
