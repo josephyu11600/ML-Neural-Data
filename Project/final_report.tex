@@ -13,7 +13,7 @@
 \maketitle
 \section{Introduction}
 \label{sec:introduction}
-At a high level CEBRA \cite{schneider2023} is a dimensionality reduction tool that leverages contrastive learning. CEBRA \cite{schneider2023} embeds neural responses into a latent space and then compares the latent embedding of the neural response with a positive sample and a negative sample. Using a combination of encoding and contrastive learning it is able to maximize the cosine distance between latent variables that correspond to different classes in the latent space. This proved to be especially effective in the context of reconstructing a video using frame ID classification from mouse V1 neural responses. The goal of this project is focused on the video reconstruction results of CEBRA \cite{schneider2023}. We broke down the project into three main parts. 
+At a high level CEBRA \cite{schneider2023} is an LVM (latent variable model) that also leverages contrastive learning. CEBRA \cite{schneider2023} embeds neural responses into a latent space and then compares the latent embedding of the neural response with the latents for a positive sample and a negative sample. Using a combination of encoding and contrastive learning it is able to maximize the cosine distance between latent variables that correspond to different classes in the latent space. This proved to be especially effective in the context of reconstructing a video using frame ID classification from mouse V1 neural responses. The goal of this project is focused on the video reconstruction results of CEBRA \cite{schneider2023}. We broke down the project into three main parts. 
 \begin{itemize}
     \item Understanding the dataset and doing some basic decoding of frame ID using simple classifiers.
     \item Training a VAE model to reconstruct the neural latents and then using the learned latents to reconstruct the video.
@@ -297,9 +297,29 @@ Previously during VAE model hyperparameter tuning we were using $7$ training and
     \label{fig:vae_frame_id_decoding_comparison}
 \end{figure}
 
-For models such as \textit{VAE No Guidance} and \textit{VAE Guidance using Frame ID} we decided to only show the top $503$ neuropixels based on variance performance on the test set because the latents learned to reconstruct the full set of $772$ neuropixels did not show any significant performance benefits. On the other hand for models such as VAE Guidance using DINO Embeddings with .008 Beta we are showing the full set of $772$ neuropixels because the latents learned to reconstruct the full set of $772$ neuropixels showed significant performance improvements.
+For models such as \textit{VAE No Guidance} and \textit{VAE Guidance using Frame ID} we decided to only show the top $503$ neuropixels based on variance performance on the test set because the latents that were learned to reconstruct the full set of $772$ neuropixels did not show any significant performance benefits. On the other hand for models such as VAE Guidance using DINO Embeddings with .008 Beta we are showing the full set of $772$ neuropixels because the latents that were learned to reconstruct the full set of $772$ neuropixels showed significant performance improvements.
 
-We can see that in the comparison between KNN and Logistic regression the logistic regression model was generally able to perform better with higher accuracy and lower MAE but out of the $6$ models that we tested the highest accuracy and lowest MAE was achieved using KNN. By a significant margin, the VAE model with guidance on the latents to learn the DINO \cite{dino} embeddings had the highest accuracy and lowest MAE. Specifically, using the full $772$ neuropixels and a annealed beta value of $.008$ we were able to achieve the highest accuracy of around $.04$ and the lowest MAE at $16$. If we compare these results to using the $503$ top variance neuropixels with logistic regression which had an accuracy of $.025$ and MAE of $58$ we can see that the VAE model with guidance on the latents was able to perform better. The tradeoff is that with guidance the neural reconstruction performance was lower than without guidance, comparing \hyperref[fig:vae_no_guidance]{Figure~\ref{fig:vae_no_guidance}} and \hyperref[fig:vae_guidance_DINO_pca_full_neuropixels]{Figure~\ref{fig:vae_guidance_DINO_pca_full_neuropixels}}. These findings were definitely unexpected since originally we believed that directly using frame ID as guidance would be the best way to supervise the latents to encode information about the individual frames. However, DINO \cite{dino} embeddings may actually encode more semantic information about what the stimulus is showing compared to just an index of the frame. Finally below we are showing the first $10$ predicted frame IDs using a KNN classifier on the latents of the best performing model, $32$ component PCA of the DINO \cite{dino} embeddings as guidance with a beta value of $.008$ and using the full set of $772$ neuropixels.
+We can see that in the comparison between KNN and Logistic regression the logistic regression model was generally able to perform better with higher accuracy and lower MAE but out of the $6$ models that we tested the highest accuracy and lowest MAE was achieved using KNN. By a significant margin, the VAE model with guidance on the latents to learn the DINO \cite{dino} embeddings had the highest accuracy and lowest MAE. Specifically, using the full $772$ neuropixels and a annealed beta value of $.008$ we were able to achieve the highest accuracy of around $.04$ and the lowest MAE at $16$. If we compare these results to using the $503$ top variance neuropixels with logistic regression which had an accuracy of $.025$ and MAE of $58$ we can see that the VAE model with guidance on the latents was able to perform better. The tradeoff is that with guidance the neural reconstruction performance was lower than without guidance, comparing \hyperref[fig:vae_no_guidance]{Figure~\ref{fig:vae_no_guidance}} and \hyperref[fig:vae_guidance_DINO_pca_full_neuropixels]{Figure~\ref{fig:vae_guidance_DINO_pca_full_neuropixels}}. These findings were definitely unexpected since originally we believed that directly using frame ID as guidance would be the best way to supervise the latents to encode information about the individual frames. However, DINO \cite{dino} embeddings may actually encode more semantic information about what the stimulus is showing compared to just an index of the frame. 
+
+We were also interested in visualizing the latent spaces of the best performing model, $32$ component PCA of the DINO \cite{dino} embeddings as guidance with a beta value of $.008$ and using the full set of $772$ neuropixels. And compare the latent space with the VAE model with no guidance on the latents and reconstructing the full $772$ neuropixels. We hoped to better understand why the VAE model with DINO \cite{dino} embeddings as guidance was able to perform significantly better at decoding the frame ID. We first encoded the test set of $900$ frames into the latent space and then used PCA to reduce the latent space to $3$ dimensions and then created two plots, one for the VAE model with no guidance and one for the VAE model with guidance on the DINO \cite{dino} embeddings.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{pca_no_guidance_latents.png}
+    \caption{PCA of VAE No Guidance Latents}
+    \label{fig:pca_no_guidance_latents}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{pca_DINO_guidance_latents.png}
+    \caption{PCA of VAE DINO Embedding Guidance Latents}
+    \label{fig:pca_DINO_guidance_latents}
+\end{figure}
+
+The PCA visualizations show that the latents learned by the VAE model with no guidance is significantly more clustered based on the frame ID compared to the $3$-dimensional PCA of the raw neuropixels. In addition, the latents learned by the VAE model with guidance on the DINO \cite{dino} embeddings show even sharper distinctions based on the frame ID with clusters also moving away from the center based on frame ID values. From this latent space visualization we can see why the DINO \cite{dino} embeddings as guidance greatly improved the models performance especially when using KNN to decode the frame ID.
+
+Finally below we are showing the first $10$ predicted frame IDs using a KNN classifier on the latents of the best performing model, $32$ component PCA of the DINO \cite{dino} embeddings as guidance with a beta value of $.008$ and using the full set of $772$ neuropixels.
 
 \begin{figure}[H]
     \centering
@@ -323,7 +343,18 @@ After getting the latent embeddings from the CEBRA \cite{schneider2023} model we
     \label{fig:cebra_knn_frame_id_accuracy_mae}
 \end{figure}
 
-From the grid search we can see that the best number of neighbors for the KNN model was $1$ with the lowest MAE and highest accuracy. We then used the best number of neighbors to evaluate the KNN model on the test set and saw a $60\%$ accuracy and $.98$ MAE. If we compare that to \hyperref[fig:vae_frame_id_decoding_comparison]{Figure~\ref{fig:vae_frame_id_decoding_comparison}} we can see that the CEBRA \cite{schneider2023} latents are significantly better at decoding the frame ID compared to the VAE latents using KNN. The best performing KNN accuracy was $4\%$ and the lowest MAE was $16$ which means CEBRA \cite{schneider2023} latents are roughly $15$ times better at decoding the frame ID compared to the VAE latents. We also generated the first $10$ predicted frame IDs using the KNN model on the held out test set.
+From the grid search we can see that the best number of neighbors for the KNN model was $1$ with the lowest MAE and highest accuracy. We then used the best number of neighbors to evaluate the KNN model on the test set and saw a $60\%$ accuracy and $.98$ MAE. If we compare that to \hyperref[fig:vae_frame_id_decoding_comparison]{Figure~\ref{fig:vae_frame_id_decoding_comparison}} we can see that the CEBRA \cite{schneider2023} latents are significantly better at decoding the frame ID compared to the VAE latents using KNN. The best performing KNN accuracy was $4\%$ and the lowest MAE was $16$ which means CEBRA \cite{schneider2023} latents are roughly $15$ times better at decoding the frame ID compared to the VAE latents. 
+
+We also visualized the latent space of the CEBRA \cite{schneider2023} model using PCA to reduce the $128$ dimensions to $3$ dimensions and then plotted the $3$-dimensional latent space for the test set to better understand how CEBRA \cite{schneider2023} latents are able to have such high performance in decoding the frame ID.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{pca_cebra_latents.png}
+    \caption{PCA of CEBRA Latents on Test Set}
+    \label{fig:cebra_latents_pca}
+\end{figure}
+
+We can see that the constrastive loss focused on cosine difference was able to embed the latents into a ring like structure where each latent point is clearly distinguisable from the others. This is likely why the KNN model was able to perform so well on decoding the frame ID using $1$ or $2$ nearest neighbors. We also generated the first $10$ predicted frame IDs using the KNN model on the held out test set using the latents of the CEBRA \cite{schneider2023} model.
 
 \begin{figure}[H]
     \centering
@@ -349,7 +380,7 @@ Using a logistic regression model we see overall higher MAE and lower accuracy c
 
 \subsubsection{CEBRA Neural Reconstruction}
 \label{subsubsec:cebra_neural_reconstruction}
-In order to validate the final step of understanding whether or not CEBRA \cite{schneider2023} latents are actually neural aligned we wanted to see how well the CEBRA \cite{schneider2023} latents are able to reconstruct the neural responses. We again split the $9$ training presentations into $7$ training and $2$ validation sets and plotted the $R^2$ score for the neural reconstruction on the validation and training sets. The decoder network was an MLP with LeakyReLU activations and the loss was the mse loss between the reconstructed neural responses and the true neural responses. After some exploration we found the best architecture to be $3$ layers in the decoder network. First, we used the full set of $772$ neuropixel responses as the target for the decoder network. Below are the results of the CEBRA \cite{schneider2023} latents neural reconstruction.
+In order to validate the final step of understanding whether or not CEBRA \cite{schneider2023} latents are actually neural aligned we wanted to see how well the CEBRA \cite{schneider2023} latents are able to reconstruct the neural responses. We again split the $9$ training presentations into $7$ training and $2$ validation sets. Then we fit the CEBRA model on the $7$ training sets and computed latents on the $2$ validation sets and the last test set. We plotted the $R^2$ score for the neural reconstruction on the validation and training sets. The decoder network was an MLP with LeakyReLU activations and the loss was the mse loss between the reconstructed neural responses and the true neural responses. After some exploration we found the best architecture to be $3$ layers in the decoder network. First, we used the full set of $772$ neuropixel responses as the target for the decoder network. Below are the results of the CEBRA \cite{schneider2023} latents neural reconstruction.
 
 \begin{figure}[H]
     \centering

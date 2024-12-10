@@ -243,6 +243,14 @@ INPUT ./images/vae_models_logistic_knn_comparison.png
 INPUT ./images/vae_models_logistic_knn_comparison.png
 INPUT ./images/vae_models_logistic_knn_comparison.png
 INPUT /usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT ./images/pca_no_guidance_latents.png
+INPUT ./images/pca_no_guidance_latents.png
+INPUT ./images/pca_no_guidance_latents.png
+INPUT ./images/pca_no_guidance_latents.png
+INPUT ./images/pca_DINO_guidance_latents.png
+INPUT ./images/pca_DINO_guidance_latents.png
+INPUT ./images/pca_DINO_guidance_latents.png
+INPUT ./images/pca_DINO_guidance_latents.png
 INPUT ./images/772_vae_hidden_.9_pca_DINO_knn_video.png
 INPUT ./images/772_vae_hidden_.9_pca_DINO_knn_video.png
 INPUT ./images/772_vae_hidden_.9_pca_DINO_knn_video.png
@@ -251,6 +259,10 @@ INPUT ./images/cebra_latents_knn_decoder_grid_search.png
 INPUT ./images/cebra_latents_knn_decoder_grid_search.png
 INPUT ./images/cebra_latents_knn_decoder_grid_search.png
 INPUT ./images/cebra_latents_knn_decoder_grid_search.png
+INPUT ./images/pca_cebra_latents.png
+INPUT ./images/pca_cebra_latents.png
+INPUT ./images/pca_cebra_latents.png
+INPUT ./images/pca_cebra_latents.png
 INPUT ./images/cebra_knn_video.png
 INPUT ./images/cebra_knn_video.png
 INPUT ./images/cebra_knn_video.png
